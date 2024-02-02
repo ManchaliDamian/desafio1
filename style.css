@@ -1,0 +1,26 @@
+
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hijo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+ 
+    border: 1px solid red;
+}
+.captus {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
