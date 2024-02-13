@@ -2,25 +2,66 @@
 html, body {
     height: 100%;
 }
+
+
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: inherit;
+    background-color: #e3d2f7;
 }
 .hijo {
     display: flex;
-    margin: auto;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 20%;
     height: 50%;
- 
-    border: 1px solid red;
+    padding: 30px;
+    border: 1px solid #E5EAF0;
+    background-color: #FAFAF9;
+    border-radius: 25px;
+    box-shadow: 3px 9px 50px 0px rgba(0,0,0,0.75);
 }
 .captus {
-    height: 50%;
-    width: 50%;
+    height: 40%;
     text-align: center;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+span{
+    font-family: 'Sora', sans-serif;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    font-size: 10px;
+    margin-right: auto;
+}
+.titulo {
+    font-family: 'Sora', sans-serif;
+    margin: 10px 0;
+    margin-right: auto;
+    font-size: 18px;
+    color: #20293A;
+}
+.descripcion {
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    color: #6C727F;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+   
+}
+footer {
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #6C727F;
+    
 }
 
