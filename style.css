@@ -10,7 +10,7 @@ html, body {
     justify-content: center;
     align-items: center;
     height: inherit;
-    background-color: #e3d2f7;
+    background-color: #fff;
 }
 .hijo {
     display: flex;
